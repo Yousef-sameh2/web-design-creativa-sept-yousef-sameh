@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(1, 1, 146);
+    padding: 20px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+
+}
+
+main div{
+    margin: 60px 120px ;
+    text-align: center;
+    background-color: rgb(208, 206, 206);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+main div h2{
+    color: rgb(1, 1, 146) ;
+
+}
+
+main section{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 0px 120px;
+    border-radius: 20px;
+}
+
+main section ul,h3{
+    list-style-type: none;
+    color: rgb(162, 149, 132);
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 28px;
+    padding-bottom: 10px ;
+    text-align: center;
+}
+

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 30%;
+    border: 3px solid bisque;
+    text-align: center;
+    margin: 30px 0px 30px 100px;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 90%;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.card-info{
+    padding: 10px;
+}
+.card-info a{
+    margin: 10px;
+    text-decoration: none;
+    border: 3px solid firebrick;
+    padding: 2px;
+    border-radius: 9px;
+
+}
+
+.card:hover{
+    color: firebrick;
+    background-color: black;
+}
+.card-info a:hover{
+    color: firebrick;
+    background-color: black;
+}
+.card-info p{
+    margin: 10px;
+}
+

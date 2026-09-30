@@ -1,0 +1,46 @@
+body{
+    background-color: #eee;
+}
+.card{
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid white;
+    text-align: center;
+    margin: 100px 0px 0px 300px;
+    border-radius: 20px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(27, 27, 182);
+    margin-left: 90px;
+    border: 3px solid gray;
+}
+
+.card span{
+    color: rgb(40, 40, 176);
+}
+
+.card p{
+    color: rgb(134, 134, 180);
+}
+
+.follow{
+    border: 3px solid rgb(56, 56, 171);
+    padding: 3px 20px;
+    border-radius: 20px;
+    margin:  0px 10px 0px -30px;
+    color: aliceblue;
+    background-color: rgb(56, 56, 171);
+    cursor: pointer;
+}
+.massge{
+    border: 3px solid rgb(56, 56, 171);
+    padding: 3px 20px;
+    border-radius: 20px;
+    color: rgb(56, 56, 171);
+    background-color: white;
+    cursor: pointer;
+}
