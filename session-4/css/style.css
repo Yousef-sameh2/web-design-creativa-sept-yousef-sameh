@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.title-style{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+.hr-orange{
+    width: 9%;
+    margin: 2% auto;
+    border-color: orange;
+}
+
+i{
+    font-size: 25px;
+    border: 2px solid rebeccapurple;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 3%;
+    line-height: 1.5;
+    margin-bottom: 3%;
+    
+}
+
+.card h3{
+    margin: 3% 0;
+}
+
+.card{
+    margin-top: 7%;
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card a{
+    border: 2px solid gray;
+    padding: 20px;
+    display: inline-block;
+    margin: 20px;
+}
+
+nav h2,nav ul, nav li{
+    display: inline-block;
+}
+nav  ul{
+    margin-left: 80%;
+    padding: 4px;
+}
+
+nav{
+    padding: 20px;
+    background-color: antiquewhite;
+}

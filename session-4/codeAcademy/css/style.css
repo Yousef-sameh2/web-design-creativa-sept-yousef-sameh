@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    color: white;
+    background-color: rgb(61, 10, 108);
+    padding: 20px;
+}
+
+nav h2 , nav ul , nav li{
+    display: inline-block;
+}
+
+nav li{
+    padding: 0px 9px;
+}
+
+nav ul{
+    margin-left: 60%;
+}
+
+nav a{
+    color: inherit;
+}
+
+.home{
+    background-image: url(../images/Gemini_Generated_Image_br2e1br2e1br2e1b.jpg);
+    text-align: center;
+    padding: 10%;
+    background-color: antiquewhite;
+}
+
+.home h2{
+    font-size: 50px;
+}
+
+.home p , .about .talk-about p{
+    color: rgb(206, 216, 225);
+}
+
+.home ul ,.home li{
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.home li{
+    padding: 8px 30px;
+    margin-right: 25px;
+}
+
+.cl-orange , .cl-white{
+    padding: 11px 50px;
+    border-radius: 20px;
+}
+
+.cl-orange{
+    color: inherit;
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+.cl-white{
+    color: white;
+    border: 2px solid white;
+}
+
+.about{
+    padding:7% 0px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+.about .talk-about{
+    margin-bottom: 2%;
+}
+
+.about .talk-about h3{
+    font-size: 35px;
+}
+.about .card i{
+    text-align: center;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    padding: 2%;
+    border: 1px solid rgb(225, 250, 249);
+    background-color: rgb(225, 250, 249);
+    border-radius: 50%;
+    margin-bottom: 10%;
+    line-height: 1.6;
+    color: #1F45A3;
+}
+
+.about .card h4{
+    color: rgb(15, 6, 29);
+}
+
+.about .card p{
+    margin-top: 7%;
+    color: rgb(106, 101, 101);
+}
+.about .midle{
+    margin: 0px 3%;
+}
+
+.card{
+    width: 25%; 
+    display: inline-block;
+    border: 1px solid rgb(223, 221, 211);
+    padding: 50px;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.course{
+    text-align: center;
+    background-color: #f8faff;
+    padding: 40px 20px;
+}
+
+.about-course h3 {
+    font-size: 28px;
+    color: #1e293b;
+    margin-bottom: 8px;
+}   
+.about-course p {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.course .card-course {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1%;
+    background-color: #ffffff; 
+    border-radius: 16px; 
+    text-align: left;
+    padding-bottom: 20px;
+}
+.card-course img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+.card-course h4 {
+    margin: 15px 20px 10px;
+    font-size: 18px;
+    color: #0f172a;
+}
+
+.card-course ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0 20px 15px;
+}
+
+.card-course ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.card-course p {
+    margin: 0 20px;
+    display: inline-block;
+    background-color: #10b981;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.stats-section {
+    background-color: #2b56b5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.stat-box {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+
+.stat-box i {
+    font-size: 32px;
+    color: #ffb703;
+    margin-bottom: 12px;
+}
+
+.stat-box h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    font-size: 15px;
+    color: #d1d5db;
+}
+
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contact-header h2 {
+    font-size: 32px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    color: #94a3b8;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.contact-card {
+    display: inline-block;
+    width: 28%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    background-color: #f8fafc;
+    border-top: 4px solid #2b56b5;
+    border-radius: 12px;
+    padding: 35px 20px;
+}
+
+.contact-card i {
+    font-size: 28px;
+    color: #2b56b5;
+    margin-bottom: 15px;
+}
+
+.contact-card h3 {
+    color: #1e293b;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.contact-card p {
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #0f172a;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.footer p {
+    color: #64748b;
+    font-size: 14px;
+}   

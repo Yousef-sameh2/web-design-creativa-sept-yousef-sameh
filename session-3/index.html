@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="card">
         <img src="images/e45a4e9634e9416d07dd8c16f45e1680_73808319bf82.avif" alt="">
         <div class="card-info">
             <h2>Lorem, ipsum.</h2>
-            <p>Lorem  odio voluptatum ex suscipit quibusdam magni error?
+            <p>Lorem odio voluptatum ex suscipit quibusdam magni error?
 
             </p>
             <a href="#">read more</a>
         </div>
     </div>
-    
+    <details>
+        <summary>اضغط هنا لمعرفة تفاصيل الكورس</summary>
+        <p>هذا الكورس يقدمه معهد NTI لتدريب الطلاب على تقنيات الويب الحديثة.</p>
+    </details>
+
+    <!-- شريط تقدم بنسبة 70% -->
+    <progress value="7" max="100"></progress>
+
+    <!-- تمثيل تاريخ محدد -->
+    <p>بدأ التدريب يوم <time datetime="2026-10-02">2 أكتوبر 2026</time>.</p>
+    <input list="browsers" placeholder="اختر متصفحك...">
+
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+    </datalist>
+    <dl>
+        <dt>NTI</dt>
+        <dd>National Telecommunication Institute - المعهد القومي للاتصالات</dd>
+
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language - لغة هيكلة صفحات الويب</dd>
+    </dl>
+
+
 </body>
+
 </html>
