@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Isometra", serif;
+}
+
+.bg-light{
+    background-color: rgb(249, 249, 236); 
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    align-content: flex-end;
+}
+
+.card{
+    width: 30%;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px gray;
+}
+
+.order-first{
+    order: -1;
+}
+
+
+.w-100{
+    width: 100%;
+}
+
+.padding-top-bottom{
+    padding: 3% 0px;
+}

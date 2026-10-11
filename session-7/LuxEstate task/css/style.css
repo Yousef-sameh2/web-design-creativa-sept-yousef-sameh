@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.nav-links li a{
+    color: black;
+
+}
+.c-white{
+    color: white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+header{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.navbar{
+    justify-content: space-between ;
+
+}
+
+.btn-nav{
+    gap: 10%;
+    width: 30%;
+    margin-right: -7%;
+}
+
+.btn-nav .join , .btn-nav .start{
+    padding: 1px 20px;
+
+}
+
+.btn-nav .join{
+    border: none;
+    background-color: transparent;
+}
+
+.btn-nav .start{
+    border: none;
+    border: 1px solid #ffcc01;
+    background-color: #ffcc01;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+
+.image-header{
+
+    width: 100%;
+    margin: 4% 0px ;
+    justify-content: flex-end;
+}
+
+.image-header .header-descriptin img{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 2px;
+    position: relative;
+    display: block;
+}
+.hock{
+    position: absolute;
+    top: 15%;
+    left: -15%;
+    width: 60%;
+    text-align: left;
+    
+}
+
+.hock h2{
+    font-size: 50px;
+    padding-bottom: 6%;
+}
+
+.hock .search-hock{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+    border: none !important;
+    padding: 0px;
+}
+.hock .search-hock i {
+    margin-left: 20px;
+    color: #b0b0b0;
+}
+
+.hock .search-hock p {
+    margin: 0px 30% 0px 0px;
+    text-align: left;
+    padding-left: 15px;
+    color: #b0b0b0;
+}
+
+.hock .search-hock a {
+    position: static;
+    background-color: #ffcc00;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 35px;
+    line-height: normal;
+    border: none;
+    font-weight: 600;
+}
+
+.header-descriptin{
+    position: relative;
+    width: 85%;
+}
+
+.loc-num{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:40%;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0;
+}
