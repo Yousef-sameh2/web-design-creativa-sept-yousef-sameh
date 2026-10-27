@@ -1,0 +1,374 @@
+@media (max-width: 1024px){
+    .left-navbar{
+        width: 70%;
+        gap: 8%;
+    }
+
+    .logo{
+        width: 35%;
+    }
+
+    .nav-links-container{
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .right-navbar{
+        width: 20%;
+        text-align: right;
+    }
+
+    .right-navbar .get-start{
+        padding: 8% 12%;
+    }
+
+    .description-hero{
+        width: 55%;
+    }
+
+    .description-hero h2{
+        font-size: 44px;
+    }
+
+    .search-box{
+        width: 30%;
+    }
+
+    .service-name{
+        font-size: 22px;
+    }
+
+    .about-text{
+        width: 52%;
+    }
+
+    .about-images{
+        width: 44%;
+    }
+
+    .team-grid{
+        gap: 25px 3%;
+    }
+
+    .team-member{
+        width: 48.5%;
+    }
+
+    .contact-box{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-form,
+    .contact-info{
+        width: 100%;
+    }
+
+    .footer-top{
+        flex-wrap: wrap;
+        gap: 30px 0;
+    }
+
+    .footer-brand{
+        width: 100%;
+    }
+
+    .footer-col{
+        width: 20%;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        min-height: 80vh;
+    }
+
+    .navbar{
+        position: relative;
+    }
+
+    .navbar-container{
+        margin: 0% 5%;
+        padding-top: 5%;
+    }
+
+    .left-navbar{
+        width: auto;
+    }
+
+    .logo{
+        width: auto;
+        gap: 12px;
+    }
+
+    .logo h1{
+        font-size: 18px;
+    }
+
+    .right-navbar{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-links-container{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        flex-direction: column;
+        gap: 18px;
+        padding: 20px 5%;
+        background-color: rgba(10, 25, 47, 0.95);
+        z-index: 10;
+    }
+
+    .menu-check:checked ~ .navbar-container .nav-links-container{
+        display: flex;
+    }
+
+    .description-hero{
+        width: 90%;
+        margin: 25% 5% 0%;
+    }
+
+    .description-hero h2{
+        font-size: 30px;
+    }
+
+    .description-hero p{
+        font-size: 13px;
+        margin: 6% 0%;
+    }
+
+    .description-hero .shop-now{
+        display: inline-block;
+        padding: 3% 8%;
+    }
+
+    .shop-container,
+    .services-container,
+    .about-container,
+    .team-container,
+    .blog-container{
+        padding: 20px;
+    }
+
+    .services-container,
+    .about-container,
+    .team-container,
+    .blog-container{
+        margin-top: 40px;
+    }
+
+    .shop-box,
+    .services-box,
+    .about-box{
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .shop-container{
+        position: relative;
+    }
+
+    .search-box{
+        position: absolute;
+        top: 28px;
+        right: 20px;
+        width: auto;
+        background: none;
+        padding: 0;
+    }
+
+    .search-box input{
+        display: none;
+    }
+
+    .shop-box-head h3{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .shop-box-head{
+        margin-bottom: 15px;
+    }
+
+    .shop-tabs{
+        justify-content: space-between;
+        gap: 0;
+        overflow-x: auto;
+    }
+
+    .shop-tabs a{
+        padding: 8px 12px;
+    }
+
+    .products-grid{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .product-card{
+        flex: none;
+        width: 100%;
+    }
+
+    .view-more{
+        display: none;
+    }
+
+    .services-grid{
+        flex-direction: row;
+        height: auto;
+    }
+
+    .service-card{
+        width: calc(50% - 4px);
+        height: 160px;
+    }
+
+    .service-card.adoption{
+        order: 0;
+        width: 100%;
+        height: 220px;
+    }
+
+    .service-name{
+        font-size: 20px;
+    }
+
+    .about-box{
+        flex-direction: column;
+    }
+
+    .about-text{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .about-images{
+        display: none;
+    }
+
+    .team-blog-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-container{
+        order: 1;
+    }
+
+    .team-container{
+        order: 2;
+    }
+
+    .blog-box{
+        flex-direction: column;
+    }
+
+    .blog-text{
+        width: 100%;
+    }
+
+    .blog-text h3{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .blog-video{
+        display: none;
+    }
+
+    .team-grid{
+        padding: 0;
+        gap: 20px 4%;
+    }
+
+    .team-member{
+        width: 48%;
+        text-align: center;
+    }
+
+    .team-social{
+        justify-content: center;
+    }
+
+    .contact-container{
+        padding: 20px;
+    }
+
+    .contact-box{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .contact-form{
+        padding: 6%;
+    }
+
+    .contact-info{
+        gap: 30px 5%;
+    }
+
+    .newsletter{
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0 20px;
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    .newsletter-form{
+        width: 100%;
+    }
+
+    .newsletter-form input{
+        width: 100%;
+    }
+
+    .footer-container{
+        padding: 20px;
+    }
+
+    .footer-top{
+        padding: 0;
+    }
+
+    .footer-col{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom{
+        margin: 30px 0 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    .description-hero{
+        margin-top: 35%;
+    }
+
+    .description-hero h2{
+        font-size: 26px;
+    }
+
+    .info-item{
+        width: 100%;
+    }
+
+    .footer-social{
+        gap: 14px;
+    }
+}

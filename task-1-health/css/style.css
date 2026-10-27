@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none; 
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+/* start a style for nav bar */
+
+.navbar{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% auto;
+
+}
+
+.logo{
+    color: #285E67;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+.nav-links{
+    display: flex;
+    gap: 10%;
+}
+
+.nav-links li a{
+    color: #2B2B2B;
+}
+
+.elipse{
+    width: 25px;
+    height: 25px;
+    background-color: #D0D0D0;
+    border-radius: 50%;
+}
+
+/* end style for nav bar */
+
+/* start style section hero */
+
+.hero-section{
+    display: flex;
+    margin-top: 10%;
+    text-align: center;
+}
+.hero-section .container{
+    margin: auto;
+}
+
+.hero-section .container .decrip h2{
+    font-size: 60px;
+}
+
+.hero-section .container .decrip p{
+    padding: 2% 0px;
+}
+
+.hero-section .container .hero-section-photo {
+    display: flex;
+    justify-content: space-around;
+}
+.hero-section .container .hero-section-photo img{
+    width:350px;
+    margin-top: 2%;
+    height: 200px;
+    border-radius: 25px;
+
+}
+
+.hero-section .container .decrip .join{
+    border: 3px solid #285E67;
+    background-color: #285E67;
+    padding:4px 5%;
+    border-radius: 50px;
+    color: white;
+}
+
+
+.hero-section .container .decrip .join:hover{
+    color: #285E67;
+    background-color: #aacaaf;
+    border-color: #aacaaf;
+}
+
+.make-relax{
+    margin-top: 10%;
+    background-color: #F4F4F4;
+    padding: 8% 0px 0px 7%;
+}
+.make-relax .make-relax-title{
+    font-size: 33px;
+    margin-bottom: 5%;
+}
+
+.make-relax .parent-relax{
+    display: flex;
+    
+    gap: 30%;
+}
+
+.container-relax{
+    display: flex;
+    gap: 10%;
+}
+
+
+.container-relax i{
+    display: block;
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 2.3;
+    text-align: center;
+    color: white;
+    background-color: #285E67;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+
+.make-relax .relax-photo img{
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 10%;
+}
+
+.make-relax .relax-photo {
+    margin-right: 4%;
+}
+
+.organic{
+    margin-top: 5%;
+}
+
+.organic-container{
+    width: 100%;
+    display: flex;
+    gap: 2%; 
+}
+.organic-left{
+    width: 100%;
+}
+
+.organic-left img{
+    width: 80%;
+    height: 100%;
+}
+
+.organic-right h3{
+    font-size: 50px;
+    color:#2B2B2B;
+}
+
+.organic-right p{
+    margin: 4% 0px 8% 0px;
+    color: #2B2B2B;
+}
+
+li{
+    padding: 3% 0px;
+}
+
+.organic-right ul li i{
+    margin-right: 3%;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.6;
+    color: #285E67;
+}
+
+
+.eat-you-are{
+    margin-top: 5%;
+    background-color: #F4F4F4;
+    display: flex;
+}
+
+.eat-container{
+    display: flex;
+    flex-direction: column;
+}
+.title-card{
+    display: flex;
+    align-items: center;
+    margin:0px 0px 0px 45%;
+    padding-top: 10%;
+    font-size: 50px;
+}
+
+.large-container{
+    display: flex;
+    align-items: center;
+    margin-top: -7%;
+    gap: 3%;
+}
+.min-card i{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #EBBFAE;
+    border-radius: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: #EBBFAE;
+    margin-bottom: 4%;
+}
+
+
+.wellbing-stars{
+    margin-top: 5%;
+}
+
+.wellbing-img-parent{
+    position: relative;
+}
+
+.wellbing-stars .wellbing-img-parent img{
+    width: 100%;
+
+}
+
+.front-wellbing-img{
+    width: 50%;
+    position: absolute;
+    top: 26%;
+    left: 24%;
+    color: white;
+    text-align: center;
+
+}
+
+
+.front-wellbing-img i{
+    font-size: 30px;
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+    line-height: 1.9;
+    border-radius: 10px;
+
+}
+
+
+.front-wellbing-img h4{
+    font-size: 37px;
+    margin-top: 2%;
+}
+
+.front-wellbing-img p{
+    padding: 4% 0px;
+
+}
+
+.front-wellbing-img .join-now{
+    border: 1px solid #F4F4F4;
+    background-color: transparent;
+    padding: 1% 11%;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #F4F4F4;
+
+
+}
+
+.front-wellbing-img .join-now:hover{
+    background-color: #F4F4F4;
+    color: #add6b3;
+}
+
+.container-observition-plant{
+    width: 85%;
+    position: absolute;
+    top: 79%;
+    left: 7%;
+    color: aliceblue;
+    display: flex;
+    gap: 4%;
+    background-color: #FCE2D7 ;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+    height: 40%;
+    color: black;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.container-observition-plant .mini-card i{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    line-height: 3.6;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+
+footer{
+    margin-top: 15%;
+    background-color:#285E67 ;
+    color: white;
+}
+
+.foter-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 8%;
+    padding: 5% 2%;
+}
+
+.foter-container .right ul ,.foter-container .right ul li a{
+    display: flex;
+    gap: 8%;
+    color: white;
+}
+
+.foter-container .left .logo-footer h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.elipse-footer{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #EAEAEA;
+    border-radius: 50%;
+    background-color: #EAEAEA;
+}
+.logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+.foter-container .left{
+    width: 30%;
+}
+.foter-container .left .footer-links{
+    display: flex;
+    margin-top: 3%;
+    gap: 5%;;
+
+}
+
+.foter-container .left .footer-links a i{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

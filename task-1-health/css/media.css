@@ -1,0 +1,287 @@
+@media (min-width: 601px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        width: 90%;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .hero-section .container {
+        width: 100%;
+    }
+
+    .hero-section .container .decrip h2 {
+        font-size: 40px;
+    }
+
+    .hero-section .container .hero-section-photo img {
+        width: 48%;
+        object-fit: cover;
+    }
+
+    .make-relax {
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    .make-relax .make-relax-title h3 {
+        font-size: 28px;
+    }
+
+    .make-relax .relax-photo {
+        display: none;
+    }
+
+    .container-relax {
+        width: 100%;
+    }
+
+    .decription-relax {
+        flex: 1;
+    }
+
+    .container-relax i {
+        margin: 0 auto 10px;
+    }
+
+    .organic-container {
+        align-items: center;
+    }
+
+    .organic-left {
+        width: 40%;
+    }
+
+    .organic-left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .organic-right {
+        width: 56%;
+    }
+
+    .organic-right h3 {
+        font-size: 32px;
+    }
+
+    .eat-container {
+        width: 100%;
+    }
+
+    .title-card {
+        margin: 0;
+        padding-top: 50px;
+        justify-content: center;
+    }
+
+    .title-card h3 {
+        font-size: 32px;
+    }
+
+    .large-container {
+        margin-top: 30px;
+        padding: 0 40px 50px;
+        justify-content: center;
+    }
+
+    .large-container .card:first-child {
+        display: none;
+    }
+
+    .min-card {
+        flex: 1;
+        text-align: center;
+    }
+
+    .wellbing-stars .wellbing-img-parent img {
+        display: block;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .front-wellbing-img {
+        width: 70%;
+        top: 40px;
+        left: 15%;
+    }
+
+    .front-wellbing-img h4 {
+        font-size: 28px;
+    }
+
+    .container-observition-plant {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: auto;
+        margin: -50px auto 0;
+        padding: 25px 5%;
+        gap: 20px;
+    }
+
+    .container-observition-plant .mini-card {
+        width: 46%;
+    }
+
+    .container-observition-plant .mini-card i {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        margin-top: 60px;
+    }
+
+    .foter-container {
+        margin: 0 5%;
+        padding: 40px 2%;
+    }
+
+    .foter-container .left {
+        width: auto;
+    }
+
+    .foter-container .right ul {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        width: 88%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 22px;
+        color: #285E67;
+    }
+
+    .hero-section {
+        margin-top: 30px;
+    }
+
+    .hero-section .container .decrip h2 {
+        font-size: 28px;
+    }
+
+    .hero-section .container .decrip .join {
+        display: inline-block;
+        padding: 8px 40px;
+    }
+
+    .hero-section .container .hero-section-photo {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-section .container .hero-section-photo img {
+        width: 100%;
+    }
+
+    .make-relax {
+        padding: 40px 20px;
+    }
+
+    .make-relax .make-relax-title h3 {
+        font-size: 24px;
+    }
+
+    .container-relax {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .organic-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .organic-left,
+    .organic-right {
+        width: 100%;
+    }
+
+    .organic-right h3 {
+        font-size: 28px;
+    }
+
+    .title-card {
+        padding-top: 40px;
+    }
+
+    .title-card h3 {
+        font-size: 26px;
+    }
+
+    .large-container {
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 20px 40px;
+    }
+
+    .min-card {
+        width: 100%;
+    }
+
+    .wellbing-stars .wellbing-img-parent img {
+        height: 460px;
+    }
+
+    .front-wellbing-img {
+        width: 90%;
+        top: 30px;
+        left: 5%;
+    }
+
+    .front-wellbing-img h4 {
+        font-size: 22px;
+    }
+
+    .front-wellbing-img p {
+        font-size: 13px;
+    }
+
+    .front-wellbing-img .join-now {
+        display: inline-block;
+        padding: 6px 30px;
+    }
+
+    .container-observition-plant {
+        flex-direction: column;
+        width: 88%;
+    }
+
+    .container-observition-plant .mini-card {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    .foter-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        margin: 0 6%;
+        padding: 40px 0;
+    }
+
+    .foter-container .left {
+        width: 100%;
+    }
+}
