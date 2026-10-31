@@ -1,0 +1,187 @@
+
+body{
+    background-color: rgb(209, 170, 190);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 4% 0%;
+}
+
+.animation-card{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin-top: 4%;
+    animation-duration: 3s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite ;
+    animation-direction: alternate-reverse;
+    /* animation-delay: ; */
+    animation-timing-function: linear;
+    animation: ChangePorder infinite linear 3s , ChangeBgColor infinite linear 3s ;
+}
+
+.animation-card:hover{
+    
+}
+@keyframes ChangeBgColor{
+    from{
+        background-color: gold;
+    }
+    to{
+        background-color: aqua;
+        border-radius: 100px;
+
+    }
+
+    25%{
+        background-color: black;
+        transform: translateX(200px);
+        border-radius: 50%;
+    }
+    50%{
+        transform: translate(200px , 200px);
+    }
+
+    75%{
+        transform: translateY(200px);
+
+    }
+
+}
+
+
+@keyframes ChangePorder{
+    
+    from{
+        border: 1px solid greenyellow;
+    }
+}
+
+.cont-card .ss{
+    width: 100%;
+    background-image: url(../images/sss.png);
+    height:500px;
+    position: relative;
+}
+
+.car .car-i{
+    width: 200px;
+    position: absolute;
+    top: 77%;
+    left: -30%;
+    animation: table 1 linear 4s  ;
+}
+
+@keyframes table{
+    from{
+        left: -30%;
+    }
+    to{
+        left: 100%;
+    }
+
+}
+
+.card{
+    width: 25%;
+    border: 4px solid rgb(161, 161, 200);
+    display:flex;
+    margin: 5% auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 3% 0px;
+    animation: bord 4s linear infinite alternate ;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+@keyframes bord{
+    0%{
+        border-color: red;
+        transform: translateY(15px);
+    }
+    40%{
+        border-color: blue;
+    }
+    90%{
+        border-color: green;
+    
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+
+}
+
+
+
+.card img{
+    width: 100px;
+    height: 100px;
+    animation: image 4s linear infinite  alternate  ;
+}
+
+
+@keyframes image{
+    from{
+        transform: translateY(15px);
+    }
+    to{
+        transform: translateY(-15px);
+    }
+
+}
+
+.card h1{
+    font-size: 27px;
+
+    animation: name 4s linear infinite  ;
+    color: blueviolet;
+
+}
+
+@keyframes name{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: blueviolet;
+    }
+
+}
+
+.card p{
+
+    font-size: 18px;
+}
+
+.card a{
+    text-decoration: none;
+    border: 1px solid #9f87ed;
+    padding: 2% 5%;
+    border-radius: 30px;
+    background-color:#9f87ed ;
+    color: white;
+    animation: btn 3s linear infinite alternate ;
+}
+
+@keyframes btn{
+    from{
+        transform: scale(1.1);
+
+    }
+
+    to{
+        transform: scale(1.4);
+    }
+}
+
+
