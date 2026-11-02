@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+
+    background-image: url(../image/navbar.png);
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    background-size: cover;
+    width: 100%;
+    height:130vh;
+    overflow: hidden;
+}
+nav{
+    margin:  auto;
+    padding: 1% 0%;
+}
+.btn-nav {
+    width: 20%;
+}
+
+.btn-nav a {
+    padding: 1% 7%;
+    border-radius: 20px;
+}
+
+
+.hero-title{
+    text-align: center;
+    margin: 4% auto; 
+
+}
+.hero-title h2{
+    font-size: 138px;
+}
+
+.btn-header{
+    gap: 5%;
+}
+
+.btn-header a{
+    margin-top: 10%;
+    padding: 2% 5%;
+    border-radius: 30px;
+}
+
+
+.counter{
+    margin: 0px 10%;
+    padding:4% 0px;
+    border-radius: 20px;
+    
+}
+
+.counter h3{
+    font-size: 50px;
+}
+
+.title-card{
+    padding: 5% 0px 3% 0px;
+}
+
+.hero-section{
+    padding: 0px 10% 0px 6%;
+}
+
+.sm-card{
+    width: 80%;
+    margin: 3% 0px;
+    padding: 1% 2%;
+}
+
+.sm-card i{
+    font-size: 50px;
+
+}
+
+.sm-card h4{
+    line-height: 3;
+}
+
+
+
+
