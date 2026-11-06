@@ -8,302 +8,540 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <header class="">
-        <nav class="d-flex align-items-center  justify-content-between container ">
-            <div>
-                <h1>EcoSculpt</h1>
-            </div>
-            <ul class="list-unstyled  d-flex  gap-10 align-items-center">
-                <li><a class="text-decoration-none fg-white" href="#">Home</a></li>
-                <li><a class="text-decoration-none fg-white" href="#">About Us</a></li>
-                <li><a class="text-decoration-none fg-white" href="#">Pages</a></li>
-            </ul>
-            <div class="d-flex gap-7 fs-lg align-items-center btn-nav ">
-                <a class="  bg-success  px-9 text-decoration-none fg-white border border-1  border-success "
-                    href="#">Login</a>
-                <a class="  bg-white  text-decoration-none fg-success border border-1 border-white" href="#">Sign up</a>
+    <header>
+        <nav class="navbar md:navbar-expand bg-transparent pt-3  ">
+            <div class="container">
+                <a class="navbar-brand fs-3xl " href="#">EcoSculpt</a>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                    data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body mb-2 md:mb-0">
+                        <ul class="nav navbar-nav m-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link fg-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fg-white" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link fg-white " type="button" data-bs-toggle="menu"
+                                    aria-expanded="false">
+                                    Menu
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </dialog>
+                <div class="w-25 d-flex gap-8 ">
+                    <a href=""
+                        class="border border-1 border-success fg-white text-decoration-none bg-success fs-lg px-10 py-2 rounded-pill ">Login</a>
+                    <a href=""
+                        class="border border-1 border-white fg-success text-decoration-none bg-white fs-lg px-10 py-2 rounded-pill">Sign
+                        up</a>
+                </div>
             </div>
         </nav>
         <hr class="border-white">
-        <div class="container w-50 m-auto   hero-title">
-            <h2>Gardens of Distinction</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing el
-                it. Vivamus hendrerit suscipit egestas. Nunc eget
-                ongue ante. Vivamus ut sapien et ex volutpat tincidu
-                nt eget at felis.
-            </p>
-            <div class="d-flex justify-content-center btn-header  ">
-                <a class="  bg-success  px-9 text-decoration-none fg-white border border-1  border-success" href="">Get
-                    Started</a>
-                <a class="   bg-white  text-decoration-none fg-success border border-1 border-white" href="">Learn
-                    More</a>
+
+        <div class="d-flex  ">
+            <div class=" m-auto  w-50    align-items-center text-center ">
+                <h2 class="header-title ">Gardens of Distinction</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas.
+                    Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
+                <div class="d-flex justify-content-center gap-10">
+                    <a href=""
+                        class="text-decoration-none fg-white bg-success border border-1 border-success py-7 px-10 rounded-pill">Get
+                        Started</a>
+                    <a href=""
+                        class="text-decoration-none fg-success bg-white border border-1 border-white py-7 px-10 rounded-pill">Learn
+                        More</a>
+                </div>
             </div>
         </div>
-        <div class="grid text-center grid-cols-4 bg-white fg-black  divide-x   counter ">
-            <div class="">
-                <h3>15<span class="fg-success">+</span> </h3>
+        <div class=" grid text-center grid-cols-4  divide-x  mt-12 p-10 bg-white fg-black rounded-5 mx-12  divide-x">
+            <div class="fs-lg">
+                <p class="fs-5xl">15<span class="fg-success">+</span> </p>
                 <p>Years Experience</p>
             </div>
-            <div class="">
-                <h3>10K<span class="fg-success">+</span> </h3>
-                <p>proudct </p>
+            <div class="fs-lg">
+                <p class="fs-5xl">10K<span class="fg-success">+</span> </p>
+                <p>Proudct</p>
             </div>
-            <div class="">
-                <h3>5K<span class="fg-success">+</span> </h3>
-                <p>Satisfied Clients </p>
+            <div class="fs-lg">
+                <p class="fs-5xl">5K<span class="fg-success">+</span> </p>
+                <p>Satisfied Clients</p>
             </div>
-            <div class="">
-                <h3>87<span class="fg-success">+</span> </h3>
-                <p>Local Team Members </p>
+            <div class="fs-lg">
+                <p class="fs-5xl">87<span class="fg-success">+</span> </p>
+                <p>Local Team Members</p>
             </div>
         </div>
     </header>
 
-    <section class="bg-white fg-black py-5 hero-section">
-        <div class="w-50 title-card  ">
-            <h3 class="fs-4xl" >Caring For Your <span class="fg-success">Private Plants</span>, Our Expertise</h3>
-            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit eg
-                estas. Nunc eget congue ante. Vivamus ut sapien et ex
-                volutpat tincidunt eget at felis.</p>
-        </div>
-
-
-        <div class=" row d-flex    align-items-center   ">
-
-            <div class="right row    col-md-5 w-50  d-flex flex-column  ">
-                <div class="plant-card p-4 mb-4 bg-white shadow-sm rounded-4 col-6 sm-card ">
-                    <i class="fa-solid fa-crosshairs fg-success "></i>
-                    <h4 class="fs-2xl" >Our <span class="fg-success" >Mission</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetu
-                        r adipiscing elit. Vivamus hendrer
-                        it suscipit egestas. Nunc eget congue ante. Viva
-                        mus ut sapien et ex volutpat tincidunt eget at felis.</p>
-                </div>
-
-                <div class="plant-card p-4 bg-white shadow-sm rounded-4  col-6 sm-card">
-                    <i class="fa-regular fa-circle fg-success "></i>
-                    <h4  class="fs-2xl" >Our <span class="fg-success" >Vision</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetu
-                        r adipiscing elit. Vivamus hendrer
-                        it suscipit egestas. Nunc eget congue ante. Viva
-                        mus ut sapien et ex volutpat tincidunt eget at felis.</p>
-                </div>
-
-            </div>
-
-            <div class="left col-6 text-center w-50 ">
-                <img src="image/hero.png" alt="" class="img-fluid w-100">
-            </div>
-        </div>
-
-    </section>
 
 
 
+    <section class="bg-white fg-black pb-10 ">
 
-    <section class="chose">
-        <div class="light">
-            <img src="" alt="">
-        </div>
-        <div class="left">
-            <h2>They Choose Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus he
-                ndrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sa
-                pien et ex volutpat tincidu
-                nt eget at felis nunc eget congue ante. Vivamus ut sapien .
-            </p>
-            <ul>
-                <li>Expertise</li>
-                <li>Timeliness</li>
-                <li>Customization</li>
-                <li>Quality Workmanship</li>
-            </ul>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="land-scape">
-        <div>
-            <h2>Our landscaping work and services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vivamus hendrerit suscipit egestas. Nunc eget congue ante.
-                Vivamus ut sapien et ex volutpat tincidunt eget at felis.
-            </p>
-            <div class="container">
-                <div class="card">
-                    <i></i>
-                    <h5>Lwan Care</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. V
-                        ivamus hendrerit suscipit egestas. Nunc eget congue ante. </p>
-                </div>
-                <div class="card">
-                    <i></i>
-                    <h5>Tree and Shrub Care</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. V
-                        ivamus hendrerit suscipit egestas. Nunc eget congue ante. </p>
-                </div>
-                <div class="card">
-                    <i></i>
-                    <h5>Free Consultations </h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. V
-                        ivamus hendrerit suscipit egestas. Nunc eget congue ante. </p>
-                </div>
-                <div class="card">
-                    <i></i>
-                    <h5>Garden Design</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. V
-                        ivamus hendrerit suscipit egestas. Nunc eget congue ante. </p>
-                </div>
-                <div class="card">
-                    <i></i>
-                    <h5>Water Features</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. V
-                        ivamus hendrerit suscipit egestas. Nunc eget congue ante. </p>
-                </div>
-                <div class="card">
-                    <i></i>
-                    <h5>Irrigation Systems</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. V
-                        ivamus hendrerit suscipit egestas. Nunc eget congue ante. </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="price">
-        <div>
-            <h3>Pricing Table</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vivamus hendrerit suscipit egestas. Nunc eget congue ante.
-                Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
-        </div>
-
-    </section>
-
-    <section class="gallery">
-        <h3>Our Gallery</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas.
-            Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
-    </section>
-    <!-- imges herr 4 4 4
-                    1 1
-                      1-->
-    <section>
-        <h3>See What They Are Saying About EcoSculpt</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vivamus hendrerit suscipit egestas. Nunc eget congue ante.
-            Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
-        <!-- <div> 6       6
-                                       6       6 </div> -->
-    </section>
-
-    <section class="frequently">
-        <div>
-            <h3>Frequently Asked Questions</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vivamus hendrerit suscipit egestas. Nunc eget congue ante.
-                Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
-        </div>
-        <div>
-            <h5>Do you specialize in both residential and commercial landscaping?</h5>
-            <p>Yes, we have extensive experience in both residential and commercial landscaping.
-                Whether you need to enhance your home's curb appeal or create an inviting outdoor
-                space for your business, we can help.
-            </p>
-        </div>
-
-        <div>
-            <h5>Do you provide sustainable and eco-friendly landscaping options?</h5>
-        </div>
-
-        <div>
-            <h5> How do I request a consultation or estimate for my landscaping project?</h5>
-        </div>
-
-        <div>
-            <h5>What factors influence the cost of a landscaping project?</h5>
-        </div>
-
-        <div>
-            <h5>How often should I schedule landscape maintenance services?</h5>
-        </div>
-
-    </section>
-    <section class="blog-artivale">
-        <div>
-            <h3>Blog And Articles</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <div class="container w-50 ms-8 pt-12">
+            <h2 class="fs-5xl">Caring For Your<span class="fg-success"> Private Plants</span>, Our Expertise</h2>
+            <p class="pt-4 pb-10 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vivamus hendrerit suscipit egestas. Nunc eget congue ante.
                 Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
 
         </div>
-        <div class="container">
-            <div class="card">
-                <img src="" alt="">
-                <span>Tips</span>
-                <h4>Choosing the Right Plants for Your Climate Zone</h4>
-                <div>
-                    <p> 10</p>
-                    <p> 10K</p>
-                    <p> 5 min ago</p>
+
+        <div class=" d-flex gap-10 m-10 ">
+
+            <div class="d-flex flex-column w-50 position-relative   ">
+                <div class="card w-75 fg-black bg-white border-0 p-10  shadow-xl ">
+                    <i class="fa-solid fa-crosshairs fg-success fs-4xl pb-7"></i>
+                    <h3>Our <span class="fg-success">Mission</span> </h3>
+                    <p class="fg-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vivamus hendrerit suscipit egestas. Nunc eget congue ante.
+                        Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci
-                    ng elit. Vivamus hendrerit suscipit egestas. Nun
-                    eget congue ante. Vivamus ut sapien et ex vol
-                    utpat tincidunt eget at felis...</p>
-                <a href="">Read More</a>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <span>Tips</span>
-                <h4>Choosing the Right Plants for Your Climate Zone</h4>
-                <div>
-                    <p> 10</p>
-                    <p> 10K</p>
-                    <p> 5 min ago</p>
+                <div class="card position-absolute bottom-0 fg-black w-75 bg-white border-0 p-10 shadow-xl">
+                    <i class="fa-regular fa-circle fg-success fs-4xl pb-7"></i>
+                    <h3>Our <span class="fg-success">Vision</span> </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vivamus hendrerit suscipit egestas. Nunc eget congue ante.
+                        Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci
-                    ng elit. Vivamus hendrerit suscipit egestas. Nun
-                    eget congue ante. Vivamus ut sapien et ex vol
-                    utpat tincidunt eget at felis...</p>
-                <a href="">Read More</a>
             </div>
-            <div class="card">
-                <img src="" alt="">
-                <span>Tips</span>
-                <h4>Choosing the Right Plants for Your Climate Zone</h4>
-                <div>
-                    <p> 10</p>
-                    <p> 10K</p>
-                    <p> 5 min ago</p>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci
-                    ng elit. Vivamus hendrerit suscipit egestas. Nun
-                    eget congue ante. Vivamus ut sapien et ex vol
-                    utpat tincidunt eget at felis...</p>
-                <a href="">Read More</a>
+            <div class="w-50 ">
+                <img src="image/hero.png" alt="">
             </div>
+
         </div>
+    </section>
+
+
+
+
+
+    <section class="fg-black bg-white  ">
+
+        <div class="container w-50   text-center pt-12 mb-4  ">
+            <h3 class="fs-5xl">Our <span class="fg-success">Gallery</span> </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas.
+                Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
+        </div>
+
+        <div class="container pt-12  ">
+            <div class=" row g-10 h-50 d-flex justify-content-center ">
+                <div class="col-md-4 w-25 ">
+                    <img src="image/galery1.png" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="">
+
+                </div>
+
+                <!-- هنحط هنا row لصورتين وتحتهم صورتين كمان  -->
+                <div class="col-md-4 d-flex flex-column gap-10 w-25">
+                    <div class="row  h-50">
+                        <div class="col-6">
+                            <img src="image/gallery2.png" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img src="image/gallery3.png" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                    </div>
+                    <div class="h-50">
+                        <img src="image/gallery5.png" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 w-25">
+                    <img src="image/gallery4.png" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="">
+                </div>
+
+
+            </div>
+
+        </div>
+
 
     </section>
 
+
+
+
+
+
+    <section class="bg-white fg-black pt-12">
+        <div class="  w-75 m-auto text-center  ">
+            <h3 class="fs-6xl">See What They Are Saying <span class="fg-success">About EcoSculpt</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas.
+                Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
+        </div>
+
+        <div class="row w-100  d-flex justify-content-center px-12 column-gap-5 gap-5 mt-12 pt-5 ">
+
+            <div class=" row col-6  me-5  ">
+                <div class="col-12 shadow-sm mb-12 px-12 py-6 w-75  m-auto  comment-parent ">
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas lobortis nisi at est euismod volutpat. Fusce a iaculis leo. Maecenas tempor hendrerit
+                        cursus. </p>
+                    <div class="d-flex justify-content-between">
+
+                        <div>
+                            <h4>Eko Susiloanto</h4>
+                            <p>Regional Mobility Manager</p>
+                        </div>
+
+                        <div class="rating-stars fg-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                    </div>
+                    <img class="avatar-img  comment-child" src="image/coment1.png" alt="mdo" width="50" height="50">
+                </div>
+
+                <div class="col-12 shadow-sm mb-12 px-12 py-6  w-75  m-auto comment-parent">
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas lobortis nisi at est euismod volutpat. Fusce a iaculis leo. Maecenas tempor hendrerit
+                        cursus. </p>
+                    <div class="d-flex justify-content-between">
+
+                        <div>
+                            <h4>Eko Susiloanto</h4>
+                            <p>Regional Mobility Manager</p>
+                        </div>
+
+                        <div class="rating-stars fg-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                    </div>
+                    <img class=" avatar-img  comment-child" src="image/coment2.png" alt="" width="50" height="50">
+                </div>
+            </div>
+
+            <div class=" row col-6">
+
+                <div class="col-12 shadow-sm mb-12 px-12 py-6  w-75  m-auto comment-parent">
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas lobortis nisi at est euismod volutpat. Fusce a iaculis leo. Maecenas tempor hendrerit
+                        cursus. </p>
+                    <div class="d-flex justify-content-between">
+
+                        <div>
+                            <h4>Eko Susiloanto</h4>
+                            <p>Regional Mobility Manager</p>
+                        </div>
+
+                        <div class="rating-stars fg-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                    </div>
+                    <img class="comment-child avatar-img " src="image/coment3.png" alt="" width="50" height="50">
+                </div>
+
+                <div class="col-12 shadow-sm mb-12 px-12 py-6  w-75  m-auto comment-parent">
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas lobortis nisi at est euismod volutpat. Fusce a iaculis leo. Maecenas tempor hendrerit
+                        cursus. </p>
+                    <div class="d-flex justify-content-between">
+
+                        <div>
+                            <h4>Eko Susiloanto</h4>
+                            <p>Regional Mobility Manager</p>
+                        </div>
+
+                        <div class="rating-stars fg-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                    </div>
+                    <img class="comment-child avatar-img =" src="image/coment4.png" alt="" width="50" height="50">
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    
+
+
+    <section class="pt-12 fg-black bg-white">
+        <div class="w-75 text-center m-auto pb-12">
+            <h3 class="fs-5xl">Frequently Asked <span class="fg-success">Questions</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas.
+                Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis.</p>
+        </div>
+
+
+        <div class="accordion container  pb-7   ">
+            <details class="accordion-item overflow-hidden shadow-lg border-0 " name="accordionExample " open>
+                <summary class="accordion-header bg-white fw-bold fs-xl  fg-black">
+                    Do you specialize in both residential and commercial landscaping?
+                    <svg class="accordion-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m2 5 6 6 6-6" />
+                    </svg>
+                </summary>
+                <div class="accordion-body    bg-success  fg-white  ">
+                    <p>Yes, we have extensive experience in both residential and commercial landscaping.
+                        Whether you need to enhance your home's curb appeal or create an inviting outdoor space for your
+                        business, we can help.</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="accordion container    pb-7 ">
+            <details class="accordion-item overflow-hidden shadow-lg border-0 " name="accordionExample " open>
+                <summary class="accordion-header bg-white fw-bold fs-xl  fg-black">
+                    Do you specialize in both residential and commercial landscaping?
+                    <svg class="accordion-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m2 5 6 6 6-6" />
+                    </svg>
+                </summary>
+                <div class="accordion-body    bg-success  fg-white  ">
+                    <p>Yes, we have extensive experience in both residential and commercial landscaping.
+                        Whether you need to enhance your home's curb appeal or create an inviting outdoor space for your
+                        business, we can help.</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="accordion container  pb-7    ">
+            <details class="accordion-item overflow-hidden shadow-lg border-0 " name="accordionExample " open>
+                <summary class="accordion-header bg-white fw-bold fs-xl  fg-black">
+                    Do you specialize in both residential and commercial landscaping?
+                    <svg class="accordion-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m2 5 6 6 6-6" />
+                    </svg>
+                </summary>
+                <div class="accordion-body    bg-success  fg-white  ">
+                    <p>Yes, we have extensive experience in both residential and commercial landscaping.
+                        Whether you need to enhance your home's curb appeal or create an inviting outdoor space for your
+                        business, we can help.</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="accordion container pb-7   ">
+            <details class="accordion-item overflow-hidden shadow-lg border-0 " name="accordionExample " open>
+                <summary class="accordion-header bg-white fw-bold fs-xl  fg-black">
+                    Do you specialize in both residential and commercial landscaping?
+                    <svg class="accordion-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m2 5 6 6 6-6" />
+                    </svg>
+                </summary>
+                <div class="accordion-body    bg-success  fg-white  ">
+                    <p>Yes, we have extensive experience in both residential and commercial landscaping.
+                        Whether you need to enhance your home's curb appeal or create an inviting outdoor space for your
+                        business, we can help.</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="accordion container pb-7  ">
+            <details class="accordion-item overflow-hidden shadow-lg border-0 " name="accordionExample " open>
+                <summary class="accordion-header bg-white fw-bold fs-xl  fg-black">
+                    Do you specialize in both residential and commercial landscaping?
+                    <svg class="accordion-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m2 5 6 6 6-6" />
+                    </svg>
+                </summary>
+                <div class="accordion-body    bg-success  fg-white  ">
+                    <p>Yes, we have extensive experience in both residential and commercial landscaping.
+                        Whether you need to enhance your home's curb appeal or create an inviting outdoor space for your
+                        business, we can help.</p>
+                </div>
+            </details>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section class="bg-white fg-black pt-12">
+        <div class="w-75 m-auto text-center pb-12">
+            <h3 class="fs-6xl">Blog And <span class="fg-success">Article</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt
+                eget at felis.</p>
+        </div>
+        <div class="container d-flex justify-content-between pt-12">
+
+            <div class="card w-25 bg-white fg-black border-0 ">
+                <img src="image/firstarticlet.png" class="card-img-top" alt="">
+                <div class="card-body border-0">
+                    <h4 class="card-title">Choosing the Right Plants for Your Climate Zone</h4>
+                    <div class="d-flex  gap-5">
+                        <p><i class="fa-regular fa-message pe-2 fg-success"></i>10</p>
+                        <p><i class="fa-solid fa-eye  fg-success pe-2"></i>10K</p>
+                        <p><i class="fa-regular fa-clock pe-2  fg-success"></i>5 Min ago</p>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                        ng elit. Vivamus hendrerit suscipit egestas. Nun
+                        eget congue ante. Vivamus ut sapien et ex vol
+                        utpat tincidunt eget at felis...</p>
+                    <a href="#" class="btn-solid theme-success w-100 rounded-pill py-4">Read More</a>
+                </div>
+            </div>
+
+            <div class="card w-25 bg-white fg-black border-0 ">
+                <img src="image/secondarticle.png" class="card-img-top" alt="">
+                <div class="card-body border-0">
+                    <h4 class="card-title">Choosing the Right Plants for Your Climate Zone</h4>
+                    <div class="d-flex gap-5">
+                        <p><i class="fa-regular fa-message pe-2  fg-success"></i>10</p>
+                        <p><i class="fa-solid fa-eye pe-2  fg-success"></i>10K</p>
+                        <p><i class="fa-regular fa-clock pe-2  fg-success"></i>5 Min ago</p>
+                    </div>
+                    <p class="card-text pb-10">Lorem ipsum dolor sit amet, consectetur adipisci
+                        ng elit. Vivamus hendrerit suscipit egestas. Nun
+                        eget congue ante. Vivamus ut sapien et ex vol
+                        utpat tincidunt eget at felis...</p>
+                    <a href="#" class="btn-solid rounded-pill py-4 w-100 theme-success">Read More</a>
+                </div>
+            </div>
+
+            <div class="card w-25 bg-white fg-black border-0 ">
+                <img src="image/houseartivle.png" class="card-img-top" alt="">
+                <div class="card-body border-0">
+                    <h4 class="card-title">Choosing the Right Plants for Your Climate Zone</h4>
+                    <div class="d-flex gap-5">
+                        <p><i class="fa-regular fa-message pe-2  fg-success"></i>10</p>
+                        <p><i class="fa-solid fa-eye pe-2  fg-success"></i>10K</p>
+                        <p><i class="fa-regular fa-clock pe-2  fg-success"></i>5 Min ago</p>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                        ng elit. Vivamus hendrerit suscipit egestas. Nun
+                        eget congue ante. Vivamus ut sapien et ex vol
+                        utpat tincidunt eget at felis...</p>
+                    <a href="#" class="btn-solid theme-success w-100 rounded-pill py-4">Read More </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-white fg-black pb-12">
+        <div class="w-50 m-auto pt-12 text-center">
+            <h3 class="fs-5xl"><span class="fg-success">Contact</span> Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas. Nunc eget
+                congue ante.
+                Vivamus ut sapien et ex volutpat tincidunt at felis nunc eget congue ante. Vivamus ut sapien.</p>
+        </div>
+        <div class="container d-flex pt-12 rounded-5">
+            <div class="w-50">
+                <img src="image/form.png" alt="">
+            </div>
+            <div class="theme-success theme-contrast  w-100 rounded-5">
+                <form action="" class="form-field container w-75 m-auto mt-12">
+                    <div class="form-field ">
+                        <label for="exampleFormControlInput1" class="form-label  fs-xl">Full name </label>
+                        <input type="text"
+                            class="form-control theme-success theme-contrast  border-white rounded-pill opacity-75"
+                            id="exampleFormControlInput1" placeholder="Enter your full name  ">
+                    </div>
+                    <div class="form-field ">
+                        <label for="exampleFormControlInput1" class="form-label  fs-xl">Email </label>
+                        <input type="email"
+                            class="form-control theme-success theme-contrast  border-white rounded-pill opacity-75"
+                            id="exampleFormControlInput1" placeholder="Enter your email  ">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="fieldTextarea" class="form-label">Message</label>
+                        <textarea class="form-control bg-success border-white" id="fieldTextarea "
+                            placeholder="Enter Message" rows="1"></textarea>
+                    </div>
+                    <button class="btn-solid bg-white fg-success align-self-start rounded-pill py-4 mt-5"
+                        type="submit">Submit</button>
+
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    
+
+    <footer class="bg-success">
+
+        <div class="row w-100 container justify-content-between m-auto py-12">
+            <div class="col-2 w-25">
+                <h4 class="fs-2xl pb-12" >EcoSculpt</h4>
+                <p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipiscing elit. Vivamus hes
+                    ndrerit suscipit egestas. </p>
+            </div>
+            <div class="col-2">
+                <h5 class="fs-xl pb-6" >Quick Links</h5>
+                <ul class="list-unstyled" >
+                    <li><a class="text-decoration-none fg-white" href="#">About Us</a></li>
+                    <li><a class="text-decoration-none fg-white"  href="#">Service</a></li>
+                    <li><a class="text-decoration-none fg-white"  href="#">Pricing</a></li>
+                    <li><a class="text-decoration-none fg-white"  href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-2 w-25">
+                <h5 class="fs-xl pb-6" >Contact Us</h5>
+                <ul class="list-unstyled" >
+                    <li><a href="mailto:hello@website.com" class="text-decoration-none fg-white"><i class="fa-regular fa-envelope pe-4"></i>hello@website.com</a></li>
+                    <li><a href="#" class="text-decoration-none fg-white"><i class="fa-solid fa-location-dot pe-4"></i>Riverside Building, London</a></li>
+                    <li><a href="tel:+025421234560" class="text-decoration-none fg-white"><i class="fa-solid fa-phone pe-4"></i>+02 5421234560</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2 w-25">
+                <h5 class="pb-10" >Follow Us</h5>
+                <div class="fg-white fs-2xl d-flex gap-7">
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 
 </body>
