@@ -34,3 +34,17 @@ header {
     color: #ffffff;
     opacity: 1;
 }
+
+.coment-card:hover{
+    background-color: green;
+    color: white;
+    
+
+}
+
+.accordion-item:hover .accordion-header,
+.accordion-item:hover .accordion-body{
+    background-color: green;
+    color: #ffffff;
+
+}
